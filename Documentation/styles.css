@@ -1,0 +1,141 @@
+body{
+    background-color: rgb(0, 0, 1);
+    border: none;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins", sans-serif;
+}
+.color{
+    color: rgb(186, 10, 255);
+    font-size: 40px;
+    font-weight: 200;
+}
+
+.main{
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.headers{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.heading{
+    font-size: 28px;
+    color: white;
+    font-weight: 500;
+}
+
+.input{
+    width: 300px;
+    border: 1px solid rgb(78, 78, 78);
+    text-align: center;
+    border-radius: 5px;
+}
+
+.input input{
+    width: 90%;
+    height: 30px;
+    color: white;
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+
+.usage{
+    color: white;
+    margin-top: 40px;
+}
+
+.title{
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.code{
+    margin-top: 20px;
+}
+
+.command_heading{
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.command{
+    font-family: "Source Code Pro", monospace;
+    font-size: 14px;
+    font-weight: 200;
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    width: fit-content;
+    border-radius: 5px;
+    border: 1px solid rgb(71, 71, 71);
+}
+
+.menu{
+    color: white;
+    flex: 1;
+}
+
+.menu_main{
+    display: flex;
+}
+
+.menu ul{
+    padding: 0px;
+    list-style: none;
+    font-size: 14px;
+    font-weight: 300;
+}
+.menu ul li {
+    margin: 10px 0px;
+}
+
+.content{
+    color: white;
+}
+
+.content{
+    flex: 4;
+}
+
+.description{
+    font-size: 14px;
+    margin: 10px 0px;
+    font-weight: 200;
+    font-style: italic;
+    color: rgb(198, 198, 198);
+}
+
+.heading_{
+    margin-top: 40px;
+}
+
+.heading_title{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.heading_description{
+    font-size: 14px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.function_container{
+    font-size: 14px;
+    font-family: "Source Code Pro", monospace;
+    line-height: 30px;
+    margin-top: 20px;
+    border-top: 5px solid rgb(93, 37, 115);
+    background-color: rgb(19, 19, 19);
+    padding: 25px;
+}
+
+.code_color{
+    color: rgb(92, 108, 255);
+}
