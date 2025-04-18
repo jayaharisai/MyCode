@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+MyCode/__init__.py
+MyCode/aws_functions.py
+MyCode/functions.py
+MyCode/utils.py
+MyCode.egg-info/PKG-INFO
+MyCode.egg-info/SOURCES.txt
+MyCode.egg-info/dependency_links.txt
+MyCode.egg-info/requires.txt
+MyCode.egg-info/top_level.txt
+test/test.py

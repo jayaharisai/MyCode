@@ -7,7 +7,8 @@ setup(
     install_requires=[  # List of dependencies
         "boto3",
         "requests",
-        "numpy",
+        "numpy", "polars",
+        "faker", "tqdm"
     ],
     author='Jayaharisai',
     author_email='jayaharisai1212@gmail.com',
