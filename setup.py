@@ -7,8 +7,9 @@ setup(
     install_requires=[  # List of dependencies
         "boto3",
         "requests",
-        "numpy", "polars",
-        "faker", "tqdm"
+        "numpy", "polars","PyPDF2",
+        "faker", "tqdm", "openai==0.28",
+        "python-docx"
     ],
     author='Jayaharisai',
     author_email='jayaharisai1212@gmail.com',

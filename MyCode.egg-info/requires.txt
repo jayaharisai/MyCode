@@ -2,5 +2,8 @@ boto3
 requests
 numpy
 polars
+PyPDF2
 faker
 tqdm
+openai==0.28
+python-docx

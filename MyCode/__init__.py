@@ -7,3 +7,5 @@ from .functions import (
 from .aws_functions import (
     aws_key_validation
     )
+
+from .RAG.rag_operations import MyCodeOpenaiWrapper, RagLoaders
